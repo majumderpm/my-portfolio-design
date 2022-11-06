@@ -1,0 +1,35 @@
+/* .logo img{
+    width: 50%;
+    height: auto;
+} */
+.bg-color{
+    background: transparent !important;
+}
+.container{
+    max-width: 1300px;
+}
+.nav-item{
+    margin: 0 5px;
+    padding: 0 10px;
+}
+.nav-link{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #010e46;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.logo img{
+    width: 74%;
+    height: auto;
+}
+.mybtn{
+    background-color: #010e46;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.mybtn:hover{
+    background-color: blueviolet;
+}
