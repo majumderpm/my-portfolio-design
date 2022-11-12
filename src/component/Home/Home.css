@@ -1,5 +1,105 @@
 .banner_part{
     width: 100%;
     height: auto;
-    padding: 180px 0 50px;
+    padding: 100px 0 50px;
+}
+
+.banner_part .content h1{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 35px;
+    color: #df5343;
+    line-height: 73px;
+    font-family: 'Work Sans', sans-serif;
+}
+.content p{
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.portfolio_area{
+    position: relative;
+}
+.portfolio_area::after{
+    content: "";
+    position: absolute;
+    right: 5.5%;
+    top: 6.6%;
+    background-image: url('../../img/testimonial_bg_shape.png');
+    background-repeat: no-repeat;
+    width: 645px;
+    height: 645px;
+    --webkit-filter: blur(141.7px);
+    --moz-filter: blur(141.7px);
+    --o-filter: blur(141.7px);
+    --ms-filter: blur(141.7px);
+    filter: blur(141.7px);
+    opacity: 0.2;
+    z-index: -1;
+}
+.portfolio_area img{
+    width: 100%;
+}
+.js_img img{
+    width: 10%;
+    position: absolute;
+    top: 93px;
+    right: 0;
+}
+.reat_img img{
+    width: 10%;
+    position: absolute;
+    top: 134px;
+    left: 38px;
+}
+.html_img img{
+    width: 10%;
+    position: absolute;
+    top: -54px;
+    left: 233px;
+}
+
+
+/* ----------------------- banerr part end here *0/
+
+
+/* -------------------------------about part srat here */
+
+.about_part{
+    padding: 80px 0;
+}
+.aboutArea{
+    position: relative;
+}
+.aboutArea::after{
+    content: "";
+    position: absolute;
+    background-image: url('../../img/testimonial_bg_shape2.png');
+    background-repeat: no-repeat;
+    width: 645px;
+    height: 645px;
+    -webkit-filter: blur(141.7px);
+    -moz-filter: blur(141.7px);
+    -o-filter: blur(141.7px);
+    -ms-filter: blur(141.7px);
+    filter: blur(141.7px);
+    opacity: 0.2;
+    left: 3%;
+    top: -10%;
+    z-index: -1;  
+}
+.about_img img{
+    width: 100%;
+}
+.about_part .content{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
