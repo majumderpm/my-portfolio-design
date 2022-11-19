@@ -1,7 +1,11 @@
-/* .logo img{
-    width: 50%;
-    height: auto;
-} */
+.logo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #c4cfde;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 .bg-color{
     background: transparent !important;
 }
@@ -13,31 +17,44 @@
 }
 .nav-item{
     margin: 0 5px;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .nav-link{
-    text-transform: capitalize;
-    font-size: 16px;
-    color: #010e46;
-    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #c4cfde;
+    font-weight: 300;
     letter-spacing: 1px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link.active{
+    color: #ff014f !important;
+}
+
+.nav-link:hover{
+    color: #ff014f;
 }
 .logo img{
-    width: 74%;
+    width: 20%;
     height: auto;
+    margin-right: 5px;
 }
 .mybtn{
-    background-color: #ff5041;
+    background-color: #1f2125;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
     padding: 12px 30px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     border: 0;
     border-radius: 5px;
     text-transform: capitalize;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #c4cfde;
 }
 .mybtn:hover{
-    background-color: blueviolet;
+   color: #ff014f;
+   background-color: #1f2125;
 }
+
 

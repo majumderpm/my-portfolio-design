@@ -1,7 +1,11 @@
+.container{
+    max-width: 1300px;
+  }
+
 .banner_part{
     width: 100%;
     height: auto;
-    padding: 100px 0 50px;
+    padding: 0 0 50px;
 }
 
 .banner_part .content h1{
@@ -9,9 +13,13 @@
     font-weight: 600;
     line-height: 1;
     margin-bottom: 35px;
-    color: #df5343;
+    color: #c4cfde;
     line-height: 73px;
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_part .content h1 span{
+    color: #ff014f;
 }
 .content p{
     margin-bottom: 35px;
@@ -20,47 +28,108 @@
     line-height: 27px;
 }
 
+.banner_part .content{
+    padding-top: 150px;
+    padding-right: 40px;
+}
+.banner_part .content h5{
+    color: #c4cfde;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+.banner_part .content h2{
+    color: #c4cfde;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_part .content p{
+    color: #c4cfde;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.portfolio_area img{
+    width: 80%;
+}
+
 .portfolio_area{
     position: relative;
 }
 .portfolio_area::after{
-    content: "";
     position: absolute;
-    right: 5.5%;
-    top: 6.6%;
-    background-image: url('../../img/testimonial_bg_shape.png');
-    background-repeat: no-repeat;
-    width: 645px;
-    height: 645px;
-    --webkit-filter: blur(141.7px);
-    --moz-filter: blur(141.7px);
-    --o-filter: blur(141.7px);
-    --ms-filter: blur(141.7px);
-    filter: blur(141.7px);
-    opacity: 0.2;
     z-index: -1;
+    width: 80%;
+    height: calc(100% - 130px);
+    content: "";
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #1f2125;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 6px;
 }
-.portfolio_area img{
-    width: 100%;
+
+
+.social i{
+    background: #1f2125;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    color: #c4cfde;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
 }
-.js_img img{
-    width: 10%;
-    position: absolute;
-    top: 93px;
-    right: 0;
+.social p{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
-.reat_img img{
-    width: 10%;
-    position: absolute;
-    top: 134px;
-    left: 38px;
+.confarence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+
 }
-.html_img img{
-    width: 10%;
-    position: absolute;
-    top: -54px;
-    left: 233px;
+
+.fa-brands.fa-react{
+    color: #61DBFB;
 }
+.fa-brands.fa-html5{
+    color: #f06529;
+}
+.fa-brands.fa-css3{
+    color: #264de4 ;
+}
+.fa-brands.fa-square-js{
+    color: #f0db4f;
+}
+
+
+.fa-brands.fa-facebook-f{
+    color: #3b5998;
+}
+.fa-brands.fa-twitter{
+    color: #00acee ;
+}
+.fa-brands.fa-linkedin-in{
+    color: #0A66C2 ;
+}
+
+.banner_part{
+    border-bottom: 1px solid #1f2125;
+}
+
 
 
 /* ----------------------- banerr part end here *0/
@@ -70,36 +139,47 @@
 
 .about_part{
     padding: 80px 0;
+    border-bottom: 1px solid #1f2125;
 }
-.aboutArea{
-    position: relative;
-}
-.aboutArea::after{
-    content: "";
-    position: absolute;
-    background-image: url('../../img/testimonial_bg_shape2.png');
-    background-repeat: no-repeat;
-    width: 645px;
-    height: 645px;
-    -webkit-filter: blur(141.7px);
-    -moz-filter: blur(141.7px);
-    -o-filter: blur(141.7px);
-    -ms-filter: blur(141.7px);
-    filter: blur(141.7px);
-    opacity: 0.2;
-    left: 3%;
-    top: -10%;
-    z-index: -1;  
-}
-.about_img img{
+.s_card{
+    background: #1f2125;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     width: 100%;
-}
-.about_part .content{
-    padding-left: 30px;
-    padding-top: 50px;
-}
-.content h2{
-    font-size: 30px;
-    font-weight: 600;
+    height: 100%;
+    padding: 80px 30px 0;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
+.s_card h3{
+    color: #c4cfde;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.s_card p{
+    font-size: 14px;
+    color: #c4cfde;
+}
+
+.s_card i{
+    color: #ff014f;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.fa-solid.fa-arrow-right{
+    color: #ff014f;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.about_part h2{
+    font-size: 60px;
+    color: #c4cfde;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* -------------------------------portfolio part srat here */
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../img/logo.png';
+import logo from '../../img/icon.png';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className='container'>
                 <nav className="navbar navbar-expand-lg bg-light bg-color">
                     <div className="logo">
-                        <img src={logo} alt="" />
+                        <p className='logo-text'>  <img src={logo} alt="" />inbio</p>
                     </div>
                     <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
                         <li className='nav-item'>
