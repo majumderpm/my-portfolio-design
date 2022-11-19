@@ -121,8 +121,9 @@ const Home = () => {
 
             <section className='portfolio'>
                 <div className="container">
+                    <h5>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h5>
+                <h2>My Portfolio</h2>
                     <div className="row">
-                        <div className="col-ld-6 col-sm-12">
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                             <div className="s_card">
                                 <i class="fa-brands fa-apple"></i>
@@ -131,7 +132,7 @@ const Home = () => {
                             </div>
                         </div>
                           
-                        </div>
+                       
                     </div>
                 </div>
             </section>
