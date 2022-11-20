@@ -15,8 +15,6 @@
     margin-bottom: 35px;
     color: #c4cfde;
     line-height: 73px;
-    font-family: 'Work Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
 }
 .banner_part .content h1 span{
     color: #ff014f;
@@ -37,7 +35,6 @@
     font-size: 16px;
     letter-spacing: 1.5px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
 }
 .banner_part .content h2{
@@ -45,7 +42,6 @@
     font-size: 16px;
     letter-spacing: 1.5px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
 }
 .banner_part .content p{
     color: #c4cfde;
@@ -127,7 +123,7 @@
 }
 
 .banner_part{
-    border-bottom: 1px solid #1f2125;
+    border-bottom: 1px solid #383a3e;
 }
 
 
@@ -137,9 +133,9 @@
 
 /* -------------------------------about part srat here */
 
-.about_part{
+.common{
     padding: 80px 0;
-    border-bottom: 1px solid #1f2125;
+    border-bottom: 1px solid #383a3e;
 }
 .s_card{
     background: #1f2125;
@@ -183,3 +179,36 @@
 
 /* -------------------------------portfolio part srat here */
 
+.s_card IMG{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.port_card{
+    padding: 25px 25px 0;
+
+}
+
+.portfolio h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.portfolio h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ff014f;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.s_card.port_card h3{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: block;
+}

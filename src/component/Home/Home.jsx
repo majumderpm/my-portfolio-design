@@ -2,9 +2,15 @@ import React from 'react';
 import './Home.css';
 import Navbar from '../Navbar/Navbar';
 import portimg from '../../img/girls.png';
+import webPort from  '../../img/web-1.jpg';
+import webtwo from  '../../img/web-2.jpg';
+import webthree from  '../../img/web-3.jpg';
+import appone from '../../img/app-1.jpg';
+import apptwo from '../../img/app-3.jpg';
+import appthree from '../../img/app-4.jpg';
 
-import aboutimg from '../../img/about.png';
-// import skillimg from '../../svg';
+
+
 
 const Home = () => {
     return (
@@ -57,7 +63,7 @@ const Home = () => {
 
             {/* about part start here */}
 
-            <section className='about_part'>
+            <section className='about_part common'>
                 <div className="container">
                     <h2>What I Do</h2>
                     <div className="row">
@@ -119,20 +125,62 @@ const Home = () => {
 
             {/* skils part start here */}
 
-            <section className='portfolio'>
+            <section className='portfolio common'>
                 <div className="container">
                     <h5>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h5>
-                <h2>My Portfolio</h2>
+                    <h2>My Portfolio</h2>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                            <div className="s_card">
-                                <i class="fa-brands fa-apple"></i>
-                                <h3>ios Development</h3>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <div className="s_card port_card">
+                                <img src={webPort} alt="" />
+                                <h3>Agency Website Design and Development. </h3>
+                               
                             </div>
                         </div>
-                          
-                       
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div className="s_card port_card">
+                                <img src={webtwo} alt="" />
+                                <h3>Fitness Website Design and Development. </h3>
+                               
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div className="s_card port_card">
+                                <img src={webthree} alt="" />
+                                <h3>Degital Marketing Design Creativity & Application</h3>
+                              
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div className="s_card port_card">
+                                <img src={appone} alt="" />
+                                <h3>Restaurant App Design Creativity & Application. </h3>
+                              
+                            </div>
+                        </div>
+
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div className="s_card port_card">
+                                <img src={apptwo} alt="" />
+                                <h3>Travel Mobile Application Figma Design. </h3>
+                              
+                            </div>
+                        </div>
+
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div className="s_card port_card">
+                                <img src={appthree} alt="" />
+                                <h3>Mobile Application Landing Page Design. </h3>
+                              
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
